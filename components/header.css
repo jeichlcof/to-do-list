@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 30px 20px 30px;
+}
+
+header h1 {
+  font-size: 30px;
+}
+header .date-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .date-box .date-box__year {
+  font-size: 20px;
+}
+header .date-box .date-box__date {
+  font-size: 18px;
+}

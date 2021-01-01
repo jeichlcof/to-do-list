@@ -1,0 +1,11 @@
+.finished {
+  margin-top: 100px;
+}
+
+.delBtn-setting {
+  width: 20px;
+  height: 20px;
+}
+.list-setting {
+  display: flex;
+}

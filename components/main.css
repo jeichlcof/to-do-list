@@ -1,0 +1,42 @@
+main {
+  margin-left: 30px;
+}
+
+form input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  background-color: transparent;
+}
+
+.pending h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.finished h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.pending-list,
+.finished-list {
+  overflow-y: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pending-list div,
+.finished-list div {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.pending-list li,
+.finished-list li {
+  width: 300px;
+  height: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+}

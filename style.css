@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import "reset.css";
-
 @import "components/header.css";
 @import "components/list.css";
 @import "components/main.css";
@@ -9,6 +9,7 @@
   margin: 0;
   font-family: sans-serif;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
